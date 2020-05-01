@@ -6,7 +6,7 @@
 
 ---
 
-- [单例模式（Singleton Pattern）](https://github.com/WilsonPan/DesignPatterns/Singleton/Overview.md)
+- [单例模式（Singleton Pattern）](https://github.com/WilsonPan/DesignPatterns/blob/master/Singleton/Overview.md)
 
 ## 结构型
 
