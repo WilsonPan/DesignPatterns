@@ -6,7 +6,10 @@
 
 ---
 
-- [单例模式（Singleton Pattern）](https://github.com/WilsonPan/DesignPatterns/blob/master/Singleton)
+- [单例模式 —— Singleton Pattern](https://github.com/WilsonPan/DesignPatterns/tree/master/Singleton)
+
+- [简单工厂模式 —— Simple Factory Pattern](https://github.com/WilsonPan/DesignPatterns/tree/master/Singleton)
+
 
 ## 结构型
 
