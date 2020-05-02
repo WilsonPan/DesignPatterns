@@ -8,7 +8,9 @@ namespace SimpleFactory
             {
                 case "IPhone":
                     return new IPhone();
-                default :
+                case "AndroidPhone":
+                    return new AndroidPhone();
+                default:
                     throw new System.NotImplementedException($"未实现【{name}】类型");
             }
         }

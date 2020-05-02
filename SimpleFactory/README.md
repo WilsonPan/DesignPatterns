@@ -52,6 +52,16 @@ public class IPhone : Phone
 }
 ```
 
+```cs
+public class AndroidPhone : Phone
+{
+    public override void Call()
+    {
+        System.Console.WriteLine("Call by Android");
+    }
+}
+```
+
 - 静态工厂
   
 ```cs
@@ -63,7 +73,9 @@ public static class PhoneFactory
         {
             case "IPhone":
                 return new IPhone();
-            default :
+            case "AndroidPhone":
+                return new AndroidPhone();
+            default:
                 throw new System.NotImplementedException($"未实现【{name}】类型");
         }
     }
@@ -74,5 +86,8 @@ public static class PhoneFactory
 
 ```cs
 var phone = PhoneFactory.Create("IPhone");
+phone.Call();
+
+phone = PhoneFactory.Create("AndroidPhone");
 phone.Call();
 ```

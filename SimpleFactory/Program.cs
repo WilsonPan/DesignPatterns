@@ -8,6 +8,9 @@ namespace SimpleFactory
         {
             var phone = PhoneFactory.Create("IPhone");
             phone.Call();
+
+            phone = PhoneFactory.Create("AndroidPhone");
+            phone.Call();
             
             Console.WriteLine("Hello World!");
         }
